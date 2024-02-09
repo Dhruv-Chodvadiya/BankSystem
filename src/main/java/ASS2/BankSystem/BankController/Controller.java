@@ -29,7 +29,6 @@ public class Controller {
         return services.depositeMoney(acNumber,deposit);
     }
 
-
     @PostMapping("/withdrow")
     public BankSystem withdrowMoney(@RequestParam String acNumber,double withdrow){
         return services.withdrowMoney(acNumber,withdrow);
