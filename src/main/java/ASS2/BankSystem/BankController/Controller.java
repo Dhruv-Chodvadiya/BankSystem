@@ -19,7 +19,6 @@ public class Controller {
     {
         return services.openAccounts(bankSystems);
     }
-
     @PostMapping("/open")
     public BankSystem openAccount (@RequestBody BankSystem bankSystem) {
         return services.openAccount(bankSystem);
