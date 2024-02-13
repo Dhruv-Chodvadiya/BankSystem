@@ -22,6 +22,7 @@ public class OpenApiConfig {
                                         .name("OpenSource")
                                         .url("https://springdoc.org/")
 
+
                         )
         );
     }
