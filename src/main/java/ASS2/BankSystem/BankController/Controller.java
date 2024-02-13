@@ -24,6 +24,7 @@ public class Controller {
         return services.openAccount(bankSystem);
     }
 
+
     @PostMapping("/deposit")
     public BankSystem depositMoney(@RequestParam String acNumber,double deposit){
         return services.depositeMoney(acNumber,deposit);

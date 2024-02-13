@@ -25,6 +25,7 @@ public class EmailServices {
             helper.setSubject("Transaction History");
 
 
+
             // Create an HTML table for the transaction history
             StringBuilder transactionHistoryHtml = new StringBuilder();
             transactionHistoryHtml.append("<html><head><style>");
