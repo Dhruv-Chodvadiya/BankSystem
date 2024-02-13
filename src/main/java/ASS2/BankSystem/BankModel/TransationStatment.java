@@ -23,7 +23,6 @@ public class TransationStatment {
     private Double amount;
     private Double Totalbalance;
 
-
     private String status;
 
     private String time;
