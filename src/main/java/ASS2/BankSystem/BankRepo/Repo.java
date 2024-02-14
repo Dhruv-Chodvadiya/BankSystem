@@ -6,6 +6,5 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface Repo extends JpaRepository<BankSystem,Long> {
-
     BankSystem findByAcNumber(String acNumber);
 }

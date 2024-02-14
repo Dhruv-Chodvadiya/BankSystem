@@ -18,4 +18,5 @@ public class BankSystem {
     private String branchName;
     private String ifscCode;
     private Double balance;
+
 }

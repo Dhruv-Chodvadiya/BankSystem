@@ -20,6 +20,7 @@ public class OpenApiConfig {
                         .license(
                                 new License()
                                         .name("OpenSource")
+
                                         .url("https://springdoc.org/")
                         )
         );
