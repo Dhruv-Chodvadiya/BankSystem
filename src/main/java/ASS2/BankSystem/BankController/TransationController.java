@@ -23,7 +23,6 @@ public class TransationController {
         return transationSrevice.statment(acNumber);
 
     }
-
     @GetMapping("/email/statement")
     public List<TransationStatment> getStatmentEmail(@RequestParam String acNumber,String email){
         List<TransationStatment> list = new ArrayList<>();
