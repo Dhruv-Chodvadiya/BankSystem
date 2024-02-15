@@ -10,10 +10,8 @@ import java.util.List;
 
 @Service
 public class TransationSrevice {
-
     @Autowired
     TransationRepo transationRepo;
-
     public List<TransationStatment> statment(String acNumber) {
         return transationRepo.findByAcNumber(acNumber);
     }
