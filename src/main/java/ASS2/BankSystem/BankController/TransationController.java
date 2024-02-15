@@ -30,5 +30,4 @@ public class TransationController {
         emailServices.sendTransactionHistoryEmail(email,list);
         return list;
     }
-
 }
