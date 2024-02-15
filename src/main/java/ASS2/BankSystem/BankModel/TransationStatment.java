@@ -11,7 +11,6 @@ import java.util.UUID;
 @Entity
 @Data
 public class TransationStatment {
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
