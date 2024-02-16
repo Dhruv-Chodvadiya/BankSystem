@@ -26,7 +26,6 @@ public class EmailServices {
 
 
 
-
             // Create an HTML table for the transaction history
             StringBuilder transactionHistoryHtml = new StringBuilder();
             transactionHistoryHtml.append("<html><head><style>");
